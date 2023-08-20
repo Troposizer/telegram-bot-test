@@ -17,7 +17,7 @@
     });
 
     Telegram.WebApp.ready();
-    Telegram.WebApp.MainButton.setText('Test testich').show().onClick(function () {
+    Telegram.WebApp.MainButton.setText('Test testich2').show().onClick(function () {
         const data = JSON.stringify({hex: colorPicker.color.hexString, rgb: colorPicker.color.rgb});
         Telegram.WebApp.sendData(data);
         Telegram.WebApp.close();
